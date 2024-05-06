@@ -2,7 +2,6 @@ FROM openjdk:8-alpine
 
 #  docker build -t trion/spring-app .
 # docker run --rm -it trion/spring-app
-VOLUME /tmp
 
 ENV SPRING_APPLICATION_JSON=\
 '{"sample": {"greeting": "Hello from docker!" }}'
